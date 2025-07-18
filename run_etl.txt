@@ -1,0 +1,6 @@
+@echo off
+call C:\Users\Ashwinbarath\anaconda3\Scripts\activate.bat base
+cd /d "C:\Users\Ashwinbarath"
+python "Retail sales.py"
+
+pause
