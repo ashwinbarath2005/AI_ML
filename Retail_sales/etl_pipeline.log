@@ -1,0 +1,153 @@
+2025-07-18 10:47:07,691:ERROR:No such comm target registered: jupyter.widget.control
+2025-07-18 10:47:07,695:WARNING:No such comm: 0b3a9629-8b63-478e-a543-19491d696623
+2025-07-18 11:50:40,436:ERROR:No such comm target registered: jupyter.widget.control
+2025-07-18 11:50:40,439:WARNING:No such comm: 378349a9-0822-40f0-aed9-2ebba10ad419
+2025-07-18 14:01:20,874:INFO:ETL Pipeline started.
+2025-07-18 14:01:20,874:ERROR:Extraction failed: [WinError 3] The system cannot find the path specified: 'data/'
+2025-07-18 14:03:19,599:INFO:ETL Pipeline started.
+2025-07-18 14:03:19,610:ERROR:Extraction failed: No objects to concatenate
+2025-07-18 14:05:23,153:INFO:ETL Pipeline started.
+2025-07-18 14:05:23,153:ERROR:Extraction failed: \u274c No valid CSV files found in folder!
+2025-07-18 14:07:12,615:INFO:ETL Pipeline started.
+2025-07-18 14:07:12,639:INFO:Extraction complete. Rows extracted: 3
+2025-07-18 14:07:12,674:ERROR:Transformation failed: Choicelist and default value do not have a common dtype: The DType <class 'numpy.dtypes._PyLongDType'> could not be promoted by <class 'numpy.dtypes.StrDType'>. This means that no common DType exists for the given inputs. For example they cannot be stored in a single array unless the dtype is `object`. The full list of DTypes is: (<class 'numpy.dtypes.StrDType'>, <class 'numpy.dtypes.StrDType'>, <class 'numpy.dtypes.StrDType'>, <class 'numpy.dtypes._PyLongDType'>)
+2025-07-18 14:08:08,860:INFO:ETL Pipeline started.
+2025-07-18 14:08:08,863:INFO:Extraction complete. Rows extracted: 3
+2025-07-18 14:08:08,866:INFO:Transformation complete. Final row count: 3
+2025-07-18 14:08:09,188:ERROR:MySQL Load failed: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2005@127.0.0.1' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-07-18 14:11:18,693:INFO:ETL Pipeline started.
+2025-07-18 14:11:18,704:INFO:Extraction complete. Rows extracted: 3
+2025-07-18 14:11:18,718:INFO:Transformation complete. Final row count: 3
+2025-07-18 14:11:18,936:ERROR:MySQL Load failed: (mysql.connector.errors.DatabaseError) 2005 (HY000): Unknown MySQL server host '2005@127.0.0.1' (11003)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2025-07-18 14:14:21,685:INFO:ETL Pipeline started.
+2025-07-18 14:14:21,691:INFO:Extraction complete. Rows extracted: 3
+2025-07-18 14:14:21,697:INFO:Transformation complete. Final row count: 3
+2025-07-18 14:14:21,799:ERROR:MySQL Load failed: (mysql.connector.errors.ProgrammingError) 1049 (42000): Unknown database 'sales'
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-18 14:14:32,207:INFO:ETL Pipeline started.
+2025-07-18 14:14:32,211:INFO:Extraction complete. Rows extracted: 3
+2025-07-18 14:14:32,215:INFO:Transformation complete. Final row count: 3
+2025-07-18 14:14:32,233:ERROR:MySQL Load failed: (mysql.connector.errors.ProgrammingError) 1049 (42000): Unknown database 'sales'
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-18 14:21:41,769 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 14:21:41,897 - INFO - Extraction complete with 3 rows.
+2025-07-18 14:21:41,909 - INFO - Transformation complete.
+2025-07-18 14:21:42,213 - INFO - Load to MySQL successful.
+2025-07-18 14:21:43,415 - INFO - Reporting complete.
+2025-07-18 14:21:43,416 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 14:51:58,994 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 14:51:59,340 - INFO - Extraction complete with 3 rows.
+2025-07-18 14:51:59,348 - INFO - Transformation complete.
+2025-07-18 14:51:59,988 - INFO - Load to MySQL successful.
+2025-07-18 14:52:00,393 - INFO - Reporting complete.
+2025-07-18 14:52:00,393 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 14:52:47,498 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 14:52:47,899 - INFO - Extraction complete with 3 rows.
+2025-07-18 14:52:47,908 - INFO - Transformation complete.
+2025-07-18 14:52:48,531 - INFO - Load to MySQL successful.
+2025-07-18 14:52:48,868 - INFO - Reporting complete.
+2025-07-18 14:52:48,868 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 14:53:34,136 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 14:53:34,542 - INFO - Extraction complete with 3 rows.
+2025-07-18 14:53:34,548 - INFO - Transformation complete.
+2025-07-18 14:53:35,137 - INFO - Load to MySQL successful.
+2025-07-18 14:53:35,463 - INFO - Reporting complete.
+2025-07-18 14:53:35,467 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 14:55:23,518 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 14:55:23,905 - INFO - Extraction complete with 3 rows.
+2025-07-18 14:55:23,913 - INFO - Transformation complete.
+2025-07-18 14:55:24,418 - INFO - Load to MySQL successful.
+2025-07-18 14:55:24,729 - INFO - Reporting complete.
+2025-07-18 14:55:24,729 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 15:00:23,980 - ERROR - No such comm target registered: jupyter.widget.control
+2025-07-18 15:00:23,983 - WARNING - No such comm: be5da741-e28c-4eb9-b752-dccb8194822a
+2025-07-18 15:03:51,515 - ERROR - No such comm target registered: jupyter.widget.control
+2025-07-18 15:03:51,517 - WARNING - No such comm: b419683f-9bf6-4994-b1b7-e4633650aed2
+2025-07-18 15:06:34,553 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 15:06:34,606 - INFO - Extraction complete with 3 rows.
+2025-07-18 15:06:34,623 - INFO - Transformation complete.
+2025-07-18 15:06:34,866 - INFO - Load to MySQL successful.
+2025-07-18 15:06:35,637 - INFO - Reporting complete.
+2025-07-18 15:06:35,638 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 15:08:34,778 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 15:08:35,107 - INFO - Extraction complete with 3 rows.
+2025-07-18 15:08:35,113 - INFO - Transformation complete.
+2025-07-18 15:08:35,639 - INFO - Load to MySQL successful.
+2025-07-18 15:08:35,964 - INFO - Reporting complete.
+2025-07-18 15:08:35,965 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 15:12:53,811 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 15:12:54,260 - INFO - Extraction complete with 3 rows.
+2025-07-18 15:12:54,272 - INFO - Transformation complete.
+2025-07-18 15:12:54,983 - INFO - Load to MySQL successful.
+2025-07-18 15:12:55,832 - INFO - Reporting complete.
+2025-07-18 15:12:55,833 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 15:17:54,706 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 15:17:55,199 - INFO - Extraction complete with 3 rows.
+2025-07-18 15:17:55,216 - INFO - Transformation complete.
+2025-07-18 15:17:56,409 - INFO - Load to MySQL successful.
+2025-07-18 15:17:57,302 - INFO - Reporting complete.
+2025-07-18 15:17:57,302 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 15:29:03,174 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 15:29:03,211 - INFO - Extraction complete with 3 rows.
+2025-07-18 15:29:03,222 - INFO - Transformation complete.
+2025-07-18 15:29:03,468 - INFO - Load to MySQL successful.
+2025-07-18 15:29:04,306 - INFO - Reporting complete.
+2025-07-18 15:29:04,307 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 15:37:51,328 - ERROR - No such comm target registered: jupyter.widget.control
+2025-07-18 15:37:51,330 - WARNING - No such comm: c31831b1-513d-4a28-9f7d-cab7b219b537
+2025-07-18 15:43:39,450 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 15:43:40,163 - INFO - Extraction complete with 3 rows.
+2025-07-18 15:43:40,179 - INFO - Transformation complete.
+2025-07-18 15:43:41,350 - INFO - Load to MySQL successful.
+2025-07-18 15:43:42,300 - INFO - Reporting complete.
+2025-07-18 15:43:42,301 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 15:43:54,987 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 15:43:55,483 - INFO - Extraction complete with 3 rows.
+2025-07-18 15:43:55,494 - INFO - Transformation complete.
+2025-07-18 15:43:56,417 - INFO - Load to MySQL successful.
+2025-07-18 15:43:57,296 - INFO - Reporting complete.
+2025-07-18 15:43:57,297 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 15:46:14,304 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 15:46:14,971 - INFO - Extraction complete with 3 rows.
+2025-07-18 15:46:14,988 - INFO - Transformation complete.
+2025-07-18 15:46:16,229 - INFO - Load to MySQL successful.
+2025-07-18 15:46:17,180 - INFO - Reporting complete.
+2025-07-18 15:46:17,181 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-18 15:48:11,314 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-18 15:48:11,816 - INFO - Extraction complete with 3 rows.
+2025-07-18 15:48:11,829 - INFO - Transformation complete.
+2025-07-18 15:48:12,800 - INFO - Load to MySQL successful.
+2025-07-18 15:48:13,676 - INFO - Reporting complete.
+2025-07-18 15:48:13,676 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-21 15:17:39,490 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-21 15:17:40,291 - INFO - Extraction complete with 3 rows.
+2025-07-21 15:17:40,319 - INFO - Transformation complete.
+2025-07-21 15:17:41,132 - INFO - Load to MySQL successful.
+2025-07-21 15:17:43,505 - INFO - Reporting complete.
+2025-07-21 15:17:43,506 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-22 23:36:09,458 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-22 23:36:11,018 - INFO - Extraction complete with 3 rows.
+2025-07-22 23:36:11,117 - INFO - Transformation complete.
+2025-07-22 23:36:12,612 - INFO - Load to MySQL successful.
+2025-07-22 23:36:15,190 - INFO - Reporting complete.
+2025-07-22 23:36:15,191 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-23 15:41:56,520 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-23 15:41:58,048 - INFO - Extraction complete with 3 rows.
+2025-07-23 15:41:58,127 - INFO - Transformation complete.
+2025-07-23 15:41:59,544 - INFO - Load to MySQL successful.
+2025-07-23 15:42:01,190 - INFO - Reporting complete.
+2025-07-23 15:42:01,190 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-24 15:55:25,228 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-24 15:55:27,578 - INFO - Extraction complete with 3 rows.
+2025-07-24 15:55:28,333 - INFO - Transformation complete.
+2025-07-24 15:55:31,099 - INFO - Load to MySQL successful.
+2025-07-24 15:55:35,548 - INFO - Reporting complete.
+2025-07-24 15:55:35,548 - INFO - \u2705 ETL Pipeline completed successfully.
+2025-07-25 20:07:23,853 - INFO - \U0001f680 ETL Pipeline started.
+2025-07-25 20:07:24,544 - INFO - Extraction complete with 3 rows.
+2025-07-25 20:07:24,639 - INFO - Transformation complete.
+2025-07-25 20:07:25,417 - INFO - Load to MySQL successful.
+2025-07-25 20:07:26,554 - INFO - Reporting complete.
+2025-07-25 20:07:26,554 - INFO - \u2705 ETL Pipeline completed successfully.
