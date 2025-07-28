@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Interest Predictor</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #fc466b, #3f5efb);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 1s ease;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+        .container {
+            background-color: #ffffffdd;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 24px;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-top: 16px;
+            font-weight: 600;
+            color: #444;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px 12px;
+            margin-top: 6px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+        input[type="submit"] {
+            margin-top: 30px;
+            width: 100%;
+            background: #3f5efb;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background: #283bcf;
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🎬 Movie Interest Predictor</h2>
+        <form action="/predict" method="post">
+            <label>Age (User 1):</label>
+            <input type="text" name="feature1" required>
+
+            <label>Gender (1 = Male, 0 = Female):</label>
+            <input type="text" name="feature2" required>
+
+            <label>Age (User 2):</label>
+            <input type="text" name="feature3" required>
+
+            <label>Gender (1 = Male, 0 = Female):</label>
+            <input type="text" name="feature4" required>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
