@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Detector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        h2 {
+            color: #444;
+        }
+        input[type="text"] {
+            padding: 8px;
+            font-size: 16px;
+        }
+        button {
+            padding: 8px 12px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        h3 span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h2>Spam Detection - Naive Bayes</h2>
+    <form method="POST">
+        <label for="message">Enter your message:</label><br>
+        <input type="text" name="message" required style="width: 300px;"><br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <h3>Prediction: <span style="color:blue">{{ prediction }}</span></h3>
+    {% endif %}
+</body>
+</html>
