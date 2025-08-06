@@ -1,0 +1,5 @@
+date,product,store,promotion,demand
+2025-08-01,Milk,Store A,1,120
+2025-08-01,Bread,Store B,0,85
+2025-08-02,Milk,Store A,0,95
+2025-08-02,Bread,Store A,1,105
