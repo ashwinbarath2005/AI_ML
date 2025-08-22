@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Commerce Semantic Search</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+  <style>
+    body { background: #f8f9fa; }
+    .card { 
+      transition: transform 0.3s ease; 
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card:hover { transform: scale(1.05); box-shadow: 0 6px 20px rgba(0,0,0,0.2); }
+    #lottie-cart { width: 200px; height: 200px; margin: auto; }
+  </style>
+</head>
+<body>
+  <div class="container py-5 text-center">
+    <!-- 🎉 Animated Cart -->
+    <div id="lottie-cart"></div>
+    <h1 class="mb-4">🛒 E-Commerce Semantic Search</h1>
+
+    <!-- Search Bar -->
+    <form method="POST" class="d-flex mb-5 justify-content-center">
+      <input type="text" name="query" class="form-control w-50 me-2" placeholder="Search for products..." value="{{ query }}">
+      <button type="submit" class="btn btn-danger">Search</button>
+    </form>
+
+    <!-- Results -->
+    <div class="row">
+      {% for product, score in results %}
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 p-3 text-center">
+          <h5 class="card-title">{{ product['name'] }}</h5>
+          <p class="card-text">🔍 Similarity Score: <b>{{ "%.2f"|format(score) }}</b></p>
+          <a href="https://www.amazon.in/s?k={{ product['name']|replace(' ', '+') }}" target="_blank" class="btn btn-warning">🛒 Buy Now</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Load Lottie Animation -->
+  <script>
+    var animation = lottie.loadAnimation({
+      container: document.getElementById('lottie-cart'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'https://assets1.lottiefiles.com/packages/lf20_ydo1amjm.json'  // Shopping cart animation
+    });
+  </script>
+</body>
+</html>
