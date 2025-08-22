@@ -1,0 +1,8 @@
+{
+  "vocab_size": 58,
+  "max_len": 32,
+  "emb_dim": 128,
+  "hid_dim": 256,
+  "start_token": "<start>",
+  "end_token": "<end>"
+}
